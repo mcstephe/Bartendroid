@@ -1,0 +1,23 @@
+dotnet add webapp -o Bartendroid
+
+dotnet add package Microsoft.EntityFrameworkCore.Design
+dotnet add package Microsoft.EntityFrameworkCore.SQLite
+dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add package System.Device.Gpio
+dotnet add package Iot.Device.Bindings
+
+Create Models directory
+Create Pages/Cocktails directory
+
+Add Cocktails, Incredients, and CocktailIngredients Models
+
+dotnet aspnet-codegenerator razorpage -m Cocktail -dc Bartendroid.Data.Context -udl -outDir Pages/Cocktails --referenceScriptLibraries --databaseProvider sqlite
+
+dotnet ef migrations add InitialCreate
+
+dotnet ef database update
+
+dotnet new razor --auth individual --force
+(this requires updates to appsettings.json and Program.cs)

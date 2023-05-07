@@ -1,0 +1,68 @@
+/* _content/Bartendroid/Pages/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+:root[b-ghtn04piwd] {
+  --primary-color: #FF6EC7;
+  --secondary-color: #4F4F4F;
+  --background-color: #141414;
+}
+
+a.navbar-brand[b-ghtn04piwd] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-ghtn04piwd] {
+  color: var(--secondary-color);
+}
+
+body[b-ghtn04piwd] {
+  background-color: var(--background-color);
+}
+
+.btn-primary[b-ghtn04piwd] {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover[b-ghtn04piwd] {
+  background-color: #ff8cd1;
+  border-color: #ff8cd1;
+}
+
+.text-primary[b-ghtn04piwd] {
+  color: var(--primary-color);
+}
+
+.navbar[b-ghtn04piwd] {
+  background-color: var(--secondary-color);
+}
+
+.nav-pills .nav-link.active[b-ghtn04piwd], .nav-pills .show > .nav-link[b-ghtn04piwd] {
+  color: white;
+}
+
+.border-top[b-ghtn04piwd] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-ghtn04piwd] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-ghtn04piwd] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-ghtn04piwd] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-ghtn04piwd] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
